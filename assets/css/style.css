@@ -1,5 +1,14 @@
 /* Global styles*/
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Handlee', cursive;
+}
+
 btn {
     color: #3b2f2f;
 }
@@ -25,7 +34,13 @@ btn {
     color: #FFEBD4;
 }
 
-.hero h1 {
-    font-family: 'Handlee', cursive;
+/* Services Section */
+
+.card-img-top {
+    height: 200px;
+    object-fit: cover;
 }
 
+.card {
+    border: none;
+}
