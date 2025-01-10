@@ -1,0 +1,13 @@
+/* Nav bar*/
+
+.navbar-nav .nav-link {
+    color: #3b2f2f !important;
+}
+
+.navbar-brand {
+    color: #3b2f2f !important;
+}
+
+.nav-link.active {
+    font-weight: bold;
+}
