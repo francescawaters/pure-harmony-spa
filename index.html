@@ -20,7 +20,7 @@
 
 <body>
     <header>
-        <nav class="navbar navbar-expand-lg navbar-light bg-white">
+        <nav class="navbar navbar-expand-lg navbar-light bg-white fixed-top">
             <div class="container-fluid">
                 <a class="navbar-brand" href="index.html">
                     <img src="assets/images/logo.png" alt="Logo" width="30" height="30"
@@ -72,7 +72,8 @@
                                 <img src="assets/images/yoga.png" alt="Yoga Class" class="card-img-top">
                                 <div class="card-body">
                                     <h5 class="card-title">Yoga Classes</h5>
-                                    <p class="card-text">Improve your flexibility and reduce stress with our yoga classes.
+                                    <p class="card-text">Improve your flexibility and reduce stress with our yoga
+                                        classes.
                                     </p>
                                 </div>
                             </div>
@@ -82,7 +83,8 @@
                                 <img src="assets/images/nutrition.png" alt="Nutritional Advice" class="card-img-top">
                                 <div class="card-body">
                                     <h5 class="card-title">Nutritional Advice</h5>
-                                    <p class="card-text">Get personalized nutritional advice to help you eat healthier.</p>
+                                    <p class="card-text">Get personalized nutritional advice to help you eat healthier.
+                                    </p>
                                 </div>
                             </div>
                         </div>
@@ -91,7 +93,8 @@
                                 <img src="assets/images/mental_health.png" class="card-img-top" alt="Mental Health">
                                 <div class="card-body">
                                     <h5 class="card-title">Mental Health Support</h5>
-                                    <p class="card-text">We offer support and resources to help you take care of your mental
+                                    <p class="card-text">We offer support and resources to help you take care of your
+                                        mental
                                         health.</p>
                                 </div>
                             </div>
@@ -108,11 +111,110 @@
                         </div>
                     </div>
                 </section>
-    </main>
-    <!-- Bootstrap and JS -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous">
-    </script>
+                <!-- Wellness Tips -->
+                <section class="wellness-tips py-5">
+                    <div class="container">
+                        <h2>Wellness Tips</h2>
+                        <p>Here are some wellness tips to help you maintain a healthy lifestyle:</p>
+                        <ul>
+                            <li>Stay hydrated by drinking plenty of water throughout the day.</li>
+                            <li>Maintain a balanced diet rich in fruits, vegetables, and whole grains.</li>
+                            <li>Exercise regularly to keep your body fit and strong.</li>
+                            <li>Get enough sleep to allow your body to rest and recover.</li>
+                            <li>Practice mindfulness and stress-relief techniques such as meditation or yoga.</li>
+                        </ul>
+                    </div>
+                </section>
+
+                <!-- Testimonials -->
+                <section class="client-testimonials py-5">
+                    <div class="container">
+                        <h2>Testimonials</h2>
+                        <div id="testimonialCarousel" class="carousel slide" data-bs-ride="carousel">
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <div class="d-flex text-center">
+                                        <div class="card shadow" style="max-width: 600px;">
+                                            <div class="card-body">
+                                                <img src="assets/images/jane_smith.png"
+                                                    class="rounded-circle mb-3 testimonial-image" alt="Client 1">
+                                                <p class="card-text">"Pure Harmony Spa is amazing! The staff is friendly
+                                                    and the services are top-notch. I always leave feeling rejuvenated."
+                                                </p>
+                                                <h5 class="card-title">- Jane Smith</h5>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="carousel-item">
+                                    <div class="d-flex text-center">
+                                        <div class="card shadow" style="max-width: 600px;">
+                                            <div class="card-body">
+                                                <img src="assets/images/john_doe.png"
+                                                    class="rounded-circle mb-3 testimonial-image" alt="Client 2">
+                                                <p class="card-text">"I love the ambiance at Pure Harmony Spa. It's the
+                                                    perfect place to unwind and relax. Highly recommend!"</p>
+                                                <h5 class="card-title">- John Doe</h5>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="carousel-item">
+                                    <div class="d-flex text-center">
+                                        <div class="card shadow" style="max-width: 600px;">
+                                            <div class="card-body">
+                                                <img src="assets/images/emily_johnson.png"
+                                                    class="rounded-circle mb-3 testimonial-image" alt="Client 3">
+                                                <p class="card-text">"The wellness programs at Pure Harmony Spa have
+                                                    greatly improved my overall health. The staff is knowledgeable and
+                                                    supportive."</p>
+                                                <h5 class="card-title">- Emily Johnson</h5>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <button class="carousel-control-prev" type="button" data-bs-target="#testimonialCarousel"
+                                data-bs-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Previous</span>
+                            </button>
+                            <button class="carousel-control-next" type="button" data-bs-target="#testimonialCarousel"
+                                data-bs-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Next</span>
+                            </button>
+                        </div>
+                    </div>
+                </section>
+        </main>
+
+        <!-- Footer -->
+        <footer class="footer text-center text-lg-start py-3 mt-auto">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6 text-md-start mb-3 mb-md-0">
+                        <p>© 2022 Seven Seas Spa</p>
+                    </div>
+                    <div class="col-md-6 text-md-end">
+                        <a href="https://www.facebook.com/Code.InstituteIRL/" target="_blank" rel="noopener noreferrer"
+                            aria-label="Visit our Facebook page" class="me-2"><i class="bi bi-facebook"></i></a>
+                        <a href="https://x.com/codeinstitute" target="_blank" rel="noopener noreferrer"
+                            aria-label="Follow us on Twitter" class="me-2"><i class="bi bi-twitter"></i></a>
+                        <a href="https://www.instagram.com/codeinstitute/" target="_blank" rel="noopener noreferrer"
+                            aria-label="Follow us on Instagram" class="me-2"><i class="bi bi-instagram"></i></a>
+                        <a href="https://www.linkedin.com/school/code-institute/" target="_blank"
+                            rel="noopener noreferrer" aria-label="Connect with us on LinkedIn" class="me-2"><i
+                                class="bi bi-linkedin"></i></a>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+        <!-- Bootstrap and JS -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous">
+        </script>
 </body>
 
 </html>
