@@ -44,3 +44,9 @@ btn {
 .card {
     border: none;
 }
+
+/* Set the size of the testimonial images */
+#testimonialCarousel .testimonial-image {
+    width: 100px;
+    height: 100px;
+}
